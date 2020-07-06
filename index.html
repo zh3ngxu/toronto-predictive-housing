@@ -1,26 +1,58 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <!--
 	Alpha by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
-	<head>
-		<title>Alpha by HTML5 UP</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-	</head>
-	<body class="landing is-preload">
-		<div id="page-wrapper">
+  <head>
+    <title>predictive housing</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.datatables.net/1.10.21/css/jquery.dataTables.css"
+    />
 
-			<!-- Header -->
-				<header id="header" class="alt">
-					<h1><a href="index.html">Alpha</a> by HTML5 UP</h1>
-					<nav id="nav">
-						<ul>
-							<li><a href="index.html">Home</a></li>
-							<li>
+    <script
+      type="text/javascript"
+      charset="utf8"
+      src="https://cdn.datatables.net/1.10.21/js/jquery.dataTables.js"
+    ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <link
+      data-require="datatables@*"
+      data-semver="1.10.12"
+      rel="stylesheet"
+      href="//cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css"
+    />
+
+    <script
+      data-require="jquery"
+      data-semver="3.0.0"
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.js"
+    ></script>
+    <script
+      data-require="datatables@*"
+      data-semver="1.10.12"
+      src="//cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"
+    ></script>
+  </head>
+  <body class="landing is-preload">
+    <div id="page-wrapper">
+      <!-- Header -->
+      <header id="header" class="alt">
+        <h1><a href="index.html"></a> Zheng Xu</h1>
+        <nav id="nav">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <!-- <li>
 								<a href="#" class="icon solid fa-angle-down">Layouts</a>
 								<ul>
 									<li><a href="generic.html">Generic</a></li>
@@ -36,136 +68,247 @@
 										</ul>
 									</li>
 								</ul>
-							</li>
-							<li><a href="#" class="button">Sign Up</a></li>
-						</ul>
-					</nav>
-				</header>
+							</li> -->
+            <!-- <li><a href="#" class="button">Sign Up</a></li> -->
+          </ul>
+        </nav>
+      </header>
 
-			<!-- Banner -->
-				<section id="banner">
-					<h2>Alpha</h2>
-					<p>Another fine responsive site template freebie by HTML5 UP.</p>
-					<ul class="actions special">
-						<li><a href="#" class="button primary">Sign Up</a></li>
-						<li><a href="#" class="button">Learn More</a></li>
-					</ul>
-				</section>
+      <!-- Banner -->
+      <section id="banner">
+        <h2>Predictive Housing Solution</h2>
+        <!-- <p>Another fine responsive site template freebie by HTML5 UP.</p> -->
+        <ul class="actions special">
+          <li><a href="#" class="button primary">Sign Up</a></li>
+          <li><a href="#" class="button">Learn More</a></li>
+        </ul>
+      </section>
 
-			<!-- Main -->
-				<section id="main" class="container">
+      <!-- Main -->
+      <section id="main" class="container">
+        <section class="box special">
+          <header class="major">
+            <h2>
+              Using Python and machine learning
+              <br />
+              for housing data collection and modelling
+            </h2>
+            <p>
+              Scraped data from different data sources and process the data<br />
+              Built regression alogorithms to develop predictive pricing
+              solution
+            </p>
+          </header>
+          <span class="image featured"
+            ><img src="images/toronto-pic1.jpg" alt=""
+          /></span>
+        </section>
 
-					<section class="box special">
-						<header class="major">
-							<h2>Introducing the ultimate mobile app
-							<br />
-							for doing stuff with your phone</h2>
-							<p>Blandit varius ut praesent nascetur eu penatibus nisi risus faucibus nunc ornare<br />
-							adipiscing nunc adipiscing. Condimentum turpis massa.</p>
-						</header>
-						<span class="image featured"><img src="images/pic01.jpg" alt="" /></span>
-					</section>
+        <section class="box special features">
+          <div class="features-row">
+            <section>
+              <span class="icon solid major fa-bolt accent2"></span>
+              <h3>Self Built Database</h3>
+              <p>
+                The daily sold housing information on
+                <a href="https://www.zoocasa.com/toronto-on-sold-listings"
+                  >external websites</a
+                >
+                will be checked and the key data will be scraped and saved
+              </p>
+            </section>
+            <section>
+              <span class="icon solid major fa-chart-area accent3"></span>
+              <h3>Automated Data Preparation</h3>
+              <p>
+                Data wrangling performed to extract key information such as
+                final price, listed_price, num of bedrooms/bathrooms, num of
+                parking lots, address, type of the property...
+              </p>
+            </section>
+          </div>
+          <div class="features-row">
+            <section>
+              <span class="icon solid major fa-cloud accent4"></span>
+              <h3>Machine Learning Modelling</h3>
+              <p>
+                Regression alogorithms trained based on cleaned data and will be
+                deployed in the system to give real-time pricing prediction for
+                potential buyers or sellers
+              </p>
+            </section>
+            <section>
+              <span class="icon solid major fa-lock accent5"></span>
+              <h3>Predictive Pricing</h3>
+              <p>
+                Input the detail of the house in GTA and get fast prediction
+                housing pricing
+              </p>
+            </section>
+          </div>
+        </section>
 
-					<section class="box special features">
-						<div class="features-row">
-							<section>
-								<span class="icon solid major fa-bolt accent2"></span>
-								<h3>Magna etiam</h3>
-								<p>Integer volutpat ante et accumsan commophasellus sed aliquam feugiat lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna aliquam veroeros.</p>
-							</section>
-							<section>
-								<span class="icon solid major fa-chart-area accent3"></span>
-								<h3>Ipsum dolor</h3>
-								<p>Integer volutpat ante et accumsan commophasellus sed aliquam feugiat lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna aliquam veroeros.</p>
-							</section>
-						</div>
-						<div class="features-row">
-							<section>
-								<span class="icon solid major fa-cloud accent4"></span>
-								<h3>Sed feugiat</h3>
-								<p>Integer volutpat ante et accumsan commophasellus sed aliquam feugiat lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna aliquam veroeros.</p>
-							</section>
-							<section>
-								<span class="icon solid major fa-lock accent5"></span>
-								<h3>Enim phasellus</h3>
-								<p>Integer volutpat ante et accumsan commophasellus sed aliquam feugiat lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna aliquam veroeros.</p>
-							</section>
-						</div>
-					</section>
+        <section class="table box special">
+          <h3>Workflow</h3>
+          <h4>scraping and cleaning data</h4>
+          <div>
+            <span class="image featured"
+              ><img src="images/zoocasa.png" alt=""
+            /></span>
+          </div>
 
-					<div class="row">
-						<div class="col-6 col-12-narrower">
+          <div>
+            <span class="image featured"
+              ><img src="images/df.png" alt=""
+            /></span>
+          </div>
+        </section>
 
-							<section class="box special">
-								<span class="image featured"><img src="images/pic02.jpg" alt="" /></span>
-								<h3>Sed lorem adipiscing</h3>
-								<p>Integer volutpat ante et accumsan commophasellus sed aliquam feugiat lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna aliquam veroeros.</p>
-								<ul class="actions special">
-									<li><a href="#" class="button alt">Learn More</a></li>
-								</ul>
-							</section>
+        <section class="table box special">
+          <h2>Price Estimator using regression model</h2>
+          Property Type:<select id="typelist" form="price">
+            <option value="1">Condo Apt</option>
+            <option value="2">Detached</option>
+            <option value="3">Semi-Detached</option>
+            <option value="4">Conda Townhouse</option>
+          </select>
 
-						</div>
-						<div class="col-6 col-12-narrower">
+          <form id="price" onsubmit="changeText()">
+            Number of Bedrooms:<input type="text" name="bedroom" /> Number of
+            Bathrooms:<input type="text" name="bathroom" /> Number of
+            Parkings:<input type="text" name="parking" />
+            <br />
+            <input type="submit" />
+          </form>
+          <br />
+          <br />
+          <h4>Housing price prediction is:</h4>
+          <p id="prediction"></p>
+        </section>
 
-							<section class="box special">
-								<span class="image featured"><img src="images/pic03.jpg" alt="" /></span>
-								<h3>Accumsan integer</h3>
-								<p>Integer volutpat ante et accumsan commophasellus sed aliquam feugiat lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna aliquam veroeros.</p>
-								<ul class="actions special">
-									<li><a href="#" class="button alt">Learn More</a></li>
-								</ul>
-							</section>
+        <!-- <div class="row">
+          <div class="col-6 col-12-narrower">
+            <section class="box special">
+              <span class="image featured"
+                ><img src="images/pic02.jpg" alt=""
+              /></span>
+              <h3>Sed lorem adipiscing</h3>
+              <p>
+                Integer volutpat ante et accumsan commophasellus sed aliquam
+                feugiat lorem aliquet ut enim rutrum phasellus iaculis accumsan
+                dolore magna aliquam veroeros.
+              </p>
+              <ul class="actions special">
+                <li><a href="#" class="button alt">Learn More</a></li>
+              </ul>
+            </section>
+          </div>
+          <div class="col-6 col-12-narrower">
+            <section class="box special">
+              <span class="image featured"
+                ><img src="images/pic03.jpg" alt=""
+              /></span>
+              <h3>Accumsan integer</h3>
+              <p>
+                Integer volutpat ante et accumsan commophasellus sed aliquam
+                feugiat lorem aliquet ut enim rutrum phasellus iaculis accumsan
+                dolore magna aliquam veroeros.
+              </p>
+              <ul class="actions special">
+                <li><a href="#" class="button alt">Learn More</a></li>
+              </ul>
+            </section>
+          </div>
+        </div> -->
+      </section>
 
-						</div>
-					</div>
+      <!-- CTA -->
+      <section id="cta">
+        <h2>Sign up for updated web app</h2>
+        <p>
+          This web app is hosted on Github Page
+        </p>
 
-				</section>
+        <form>
+          <div class="row gtr-50 gtr-uniform">
+            <div class="col-8 col-12-mobilep">
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Email Address"
+              />
+            </div>
+            <div class="col-4 col-12-mobilep">
+              <input type="submit" value="Sign Up" class="fit" />
+            </div>
+          </div>
+        </form>
+      </section>
 
-			<!-- CTA -->
-				<section id="cta">
+      <!-- Footer -->
+      <footer id="footer">
+        <ul class="icons">
+          <li>
+            <a href="#" class="icon brands fa-twitter"
+              ><span class="label">Twitter</span></a
+            >
+          </li>
+          <li>
+            <a href="#" class="icon brands fa-facebook-f"
+              ><span class="label">Facebook</span></a
+            >
+          </li>
+          <li>
+            <a href="#" class="icon brands fa-instagram"
+              ><span class="label">Instagram</span></a
+            >
+          </li>
+          <li>
+            <a href="#" class="icon brands fa-github"
+              ><span class="label">Github</span></a
+            >
+          </li>
+          <li>
+            <a href="#" class="icon brands fa-dribbble"
+              ><span class="label">Dribbble</span></a
+            >
+          </li>
+          <li>
+            <a href="#" class="icon brands fa-google-plus"
+              ><span class="label">Google+</span></a
+            >
+          </li>
+        </ul>
+        <ul class="copyright">
+          <li>&copy; Zheng Xu. All rights reserved.</li>
+          <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+        </ul>
+      </footer>
+    </div>
 
-					<h2>Sign up for beta access</h2>
-					<p>Blandit varius ut praesent nascetur eu penatibus nisi risus faucibus nunc.</p>
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.dropotron.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script>
+      function changeText() {
+        event.preventDefault();
+        var type = document.getElementById('typelist').value;
+        var bedroom = document.getElementById('price').bedroom.value;
+        var bathroom = document.getElementById('price').bathroom.value;
+        var parking = document.getElementById('price').parking.value;
+        var pridectedPrice =
+          120833 * bedroom + bathroom * 372253 + parking * 2276 - 75728 * type;
+        console.log(pridectedPrice);
+        // alert(bedroom);
 
-					<form>
-						<div class="row gtr-50 gtr-uniform">
-							<div class="col-8 col-12-mobilep">
-								<input type="email" name="email" id="email" placeholder="Email Address" />
-							</div>
-							<div class="col-4 col-12-mobilep">
-								<input type="submit" value="Sign Up" class="fit" />
-							</div>
-						</div>
-					</form>
-
-				</section>
-
-			<!-- Footer -->
-				<footer id="footer">
-					<ul class="icons">
-						<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-						<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-						<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-						<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
-						<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
-						<li><a href="#" class="icon brands fa-google-plus"><span class="label">Google+</span></a></li>
-					</ul>
-					<ul class="copyright">
-						<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-					</ul>
-				</footer>
-
-		</div>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.dropotron.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
+        document.getElementById('prediction').innerHTML = pridectedPrice;
+      }
+    </script>
+  </body>
 </html>
