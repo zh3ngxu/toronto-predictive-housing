@@ -4,7 +4,7 @@ Using Python to scrape sold house data and build a website with machine learning
 
 ## Installation
 
-Please check the finished [website](https://zhengx-94.github.io/toronto-predictive-housing/)
+Please check the finished [website](https://zh3ngxu.github.io/toronto-predictive-housing/)
 
 ## Data collection
 
